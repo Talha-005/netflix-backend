@@ -1,0 +1,41 @@
+{
+  "name": "mts-app",
+  "version": "1.0.0",
+  "description": "Practice project app",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.17.1"
+  },
+  "author": "talha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "handlebars": "^4.5.3",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.20.1",
+    "mongoose": "^5.13.7",
+    "winston": "^2.4.5",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "supertest": "^3.0.0"
+  }
+}

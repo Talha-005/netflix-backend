@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "mtsApp_jwtPrivateKey",
+    "db":"mtsAppDB"
+}
